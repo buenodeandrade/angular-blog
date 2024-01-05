@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {dataFake} from '../../data/dataFake'
 
 @Component({
   selector: 'app-big-card',
@@ -20,5 +21,7 @@ export class BigCardComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+
 
 }
